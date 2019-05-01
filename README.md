@@ -9,7 +9,7 @@ Experimental of monorepo package management based on NPM file specifier and depl
 - The official ZEIT Now's monorepo example doesn't introduce how to internal package
 - Lerna or NPM symlink are not ZEIT Now friendly
 - I don't like Lerna, it's randomly deleted my packages 😥... [https://github.com/lerna/lerna/issues/951](https://github.com/lerna/lerna/issues/951)
-- Someone has a solution to come over private registries problem which packing local packages up with `npm pack` and then deploy to ZEIT Now as a static file `https://my-package-abc123.now.sh` and update the corresponding registries in package.json, but this approach is very hacky and tedious.
+- Someone has a [solution](https://spectrum.chat/zeit/now/bundling-npm-dependencies-from-private-registries~048e76c4-78f6-42b1-bc26-4910071c5075) to come over private registries problem which packing local packages up with `npm pack` and then deploy to ZEIT Now as a static file `https://my-package-abc123.now.sh` and update the corresponding registries in package.json, but this approach is very hacky and tedious.
 
 ## Pros
 
