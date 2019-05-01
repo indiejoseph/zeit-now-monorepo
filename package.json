@@ -1,0 +1,8 @@
+{
+  "name": "@zeit-now-monorepo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Joseph Cheng <indiejoseph@gmail.com>",
+  "license": "MIT",
+  "description": ""
+}

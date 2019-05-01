@@ -1,0 +1,11 @@
+{
+  "name": "@zeit-now-monorepo/www-a",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Joseph Cheng <indiejoseph@gmail.com>",
+  "license": "MIT",
+  "description": "lambda endpoint A",
+  "dependencies": {
+    "@zeit-now-monorepo/shared": "file:../shared"
+  }
+}
